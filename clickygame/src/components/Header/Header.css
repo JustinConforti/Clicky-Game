@@ -1,0 +1,19 @@
+/* Header Styles */
+label span{
+    float:right;
+}
+#header{
+    font-size: 2rem;     
+    overflow: hidden;  
+}
+#header label{
+    display: inline-block;
+    margin-bottom:0px;
+    margin-left:20px;
+    min-width: 200px;   
+}
+@media (max-width:500px){ 
+    .display-4{
+        font-size:40px;
+    }
+}
