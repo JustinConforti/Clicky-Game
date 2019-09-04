@@ -1,5 +1,7 @@
 #CharacterBoard{
+    background-image: url("darkportal.jpg");
     display: inline-block;
-    max-width:550px;
+    max-width:110%;
+    margin-left:1.5%;
     text-align: center;   
 }

@@ -11,11 +11,11 @@ const displayMessage = props => {
 
         case "won":
             currentMessage = "A great memory you have!"
-            return <GameOver src="/images/blackhand.jpg" header="You won!" msg={currentMessage} />
+            return <GameOver src="/images/characters/victory.jpg" header="You won!" msg={currentMessage} />
 
         case "lost":
             currentMessage = "A lack of memory you have"
-            return <GameOver src="/images/thrall.jpg" header="Not this time" msg={currentMessage} />
+            return <GameOver src="/images/characters/defeat.jpg" header="Not this time" msg={currentMessage} />
 
         default:
             return <Message />

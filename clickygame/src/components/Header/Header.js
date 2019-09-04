@@ -2,8 +2,8 @@ import React from "react";
 import "./Header.css";
 
 const Header = props => (
-<div id="header" className="bg-primary text-light">
-    <h3 className="display-4 text-center">World Of Warcraft Characters:</h3>
+<div id="header" className="bg-success text-light">
+    <h3 className="display-4 text-center">World Of Warcraft Memory Game:</h3>
         <div className="row">
             <div className="col col-md-3 col-sm-12">
                 <label>Your Score: <span>{props.clicks}</span></label>

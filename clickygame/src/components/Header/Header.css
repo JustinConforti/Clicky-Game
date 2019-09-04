@@ -3,8 +3,9 @@ label span{
     float:right;
 }
 #header{
-    font-size: 2rem;     
+    font-size: 1.5rem;     
     overflow: hidden;  
+    max-width:100%
 }
 #header label{
     display: inline-block;
