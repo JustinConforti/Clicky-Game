@@ -1,0 +1,15 @@
+#message-Div {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 30px;
+    max-width:500px;
+    opacity: .75;
+    vertical-align:top;
+
+}
+
+@media (max-width:500px) {
+    #message-Div{
+        margin-left:auto;
+    }
+}

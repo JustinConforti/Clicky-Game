@@ -1,0 +1,15 @@
+#results-div {
+    display: inline-block;
+    margin-left:25px;
+    margin-top:30px;
+    max-width:500px;
+    opacity: .75;
+    vertical-align:top;
+
+}
+
+#results-div img {
+    display: inline-block;
+    margin-right: 20px;
+    max-height: 275px;
+}

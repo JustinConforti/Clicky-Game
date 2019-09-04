@@ -10,7 +10,7 @@ const CharacterBoard = props =>
             <Card key={char.id}
              name={char.name} 
              img={process.env.PUBLIC_URL + char.image} 
-             handleClick={props.handleClick} 
+             pictureClicked={props.pictureClicked} 
              id={char.id} />)}
         </div>
 
